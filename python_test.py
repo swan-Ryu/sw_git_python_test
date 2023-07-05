@@ -9,12 +9,15 @@ print("Hey big brothers, Let's do it together.")
 
 # %%
 
+### Git 초기화
+# git init
+
 ### 정보 입력하기
 # git config -global user.name "name"
 # git config -global user.email "xxxx@xxxxx.com"
 
-### Git 초기화
-# git init
+### config list 확인하기
+# git config --list
 
 ### 
 # git status
