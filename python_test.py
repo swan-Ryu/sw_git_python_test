@@ -40,6 +40,7 @@ print("Hey big brothers, Let's do it together.")
 
 ### push the local soruce to the remote repository
 # git push origin master
+# git push origin [new_branch] # create a new_branch in remote repository and push
 
 ### create a branch
 # git branch [name]
