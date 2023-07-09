@@ -49,5 +49,8 @@ print("Hey big brothers, Let's do it together.")
 # git checkout [name]
 # git checkout -b [name] # create a branch and move to the branch simultaneously
 
-# delete the branch
+### delete the branch
 # git branch -d [name]
+
+### pull the code of the master of the remote
+# git pull origin master
