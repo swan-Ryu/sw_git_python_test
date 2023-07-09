@@ -9,33 +9,44 @@ print("Hey big brothers, Let's do it together.")
 
 # %%
 
-### Git 초기화
+### initialize and start a git
 # git init
 
-### 정보 입력하기
+### Setting account information
 # git config -global user.name "name"
 # git config -global user.email "xxxx@xxxxx.com"
 
-### config list 확인하기
+### confirm a config list 
 # git config --list
 
-### 
+### current state
 # git status
 
-### 
-# git add . # 전체 파일 staging area에 올리기
+### adding files to the staging area
+# git add . # whole files
 
-### commit 하기
+### commit
 # git commit -m "xxxx"
+# git commit -m "xxxx" --amend # revise the commit
 
-### commit log 확인하기
+### confirm the commit logs
 # git log
 
-### local을 remote와 연결하기
-# git remote add origin [git hub 주소]
+### connect between local and remote
+# git remote add origin [git hub adress]
 
-### remote 확인
+### confirm the current configured remote repository
 # git remote -v
 
-### remote의 master에 push 하기
+### push the local soruce to the remote repository
 # git push origin master
+
+### create a branch
+# git branch [name]
+
+### move to the branch
+# git checkout [name]
+# git checkout -b [name] # create a branch and move to the branch simultaneously
+
+# delete the branch
+# git branch -d [name]
