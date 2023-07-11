@@ -6,6 +6,7 @@
 print("Hello, world")
 print("We will start git-hub. We can do it.")
 print("Hey big brothers, Let's do it together.")
+print("Myung Kyungbaek just joined. 2023-07-11 08:15 KST.")
 
 # %%
 
