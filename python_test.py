@@ -53,5 +53,11 @@ print("Myung Kyungbaek just joined. 2023-07-11 08:15 KST.")
 ### delete the branch
 # git branch -d [name]
 
+### shows both local and remote branches.
+# git branch -a
+
 ### pull the code of the master of the remote
 # git pull origin master
+
+### Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
+# git clone [url]
